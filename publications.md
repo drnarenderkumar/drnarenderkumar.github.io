@@ -13,7 +13,7 @@ permalink: /publications/
 - Abstracts in research conferences: 24 
 - Clinical audits: 02 
 
-# PhD thesis title: 
+# PhD Thesis: 
 - A cell-autonomous PD-1/PD-L1/2 circuit promotes proliferation and motility of thyroid cancer cells by  potentiating the Ras/Mapk signalling cascade. 
 
 # Publications (Peer-reviewed articles)	
