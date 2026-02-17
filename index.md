@@ -3,6 +3,17 @@ layout: home
 title: Dr. Narender Kumar
 ---
 
+<title>Dr. Narender Kumar | [Your Specialty] | Research & Publications</title>
+
+<meta name="description" content="Official website of Dr. Narender Kumar. Research, publications, academic profile and professional work.">
+
+<meta name="keywords" content="Dr Narender Kumar, Researcher, Professor, Publications, [Your Field]">
+
+<meta name="author" content="Dr Narender Kumar">
+
+<meta name="robots" content="index, follow">
+
+
 **MBBS, MRCP (UK), PhD**  
 Physician • Researcher • Harvard Alumnus • Marie Skłodowska-Curie Fellow  
 **Medical Oncology | Internal Medicine | Molecular Oncology | Clinical Research**  
