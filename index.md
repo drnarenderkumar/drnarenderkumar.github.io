@@ -36,7 +36,7 @@ Beyond his clinical and research pursuits, Dr. Kumar has demonstrated leadership
 
 ## Contact
 
-[Email:](narender@alumni.harvard.edu)    
+[Email](narender@alumni.harvard.edu)    
 [Twitter: X](https://x.com/NKSantoriya)    
-[LinkedIn:](your profile link)    
-[Google Scholar:](https://scholar.google.com/citations?user=UC8BFsUAAAAJ&hl=en)    
+[ORCID](https://orcid.org/my-orcid?orcid=0000-0002-2427-647X)  
+[Google Scholar](https://scholar.google.com/citations?user=UC8BFsUAAAAJ&hl=en)    
