@@ -15,7 +15,8 @@ permalink: /publications/
 - Abstracts in research conferences: 24 
 - Clinical audits: 02 
 
-# PhD thesis title: 	A cell-autonomous PD-1/PD-L1/2 circuit promotes proliferation and motility of thyroid cancer cells by  potentiating the Ras/Mapk signalling cascade. 
+# PhD thesis title: 
+- A cell-autonomous PD-1/PD-L1/2 circuit promotes proliferation and motility of thyroid cancer cells by  potentiating the Ras/Mapk signalling cascade. 
 
 # Publications (Peer-reviewed articles)	
 1.	Kumar N, Kapoor A, Kalwar A, Narayan S, Singhal MK, Kumar A et al. Allele Frequency of ABO Blood Group Antigen and the Risk of Esophageal Cancer. Biomed Res Int 2014; 2014; 286810. 
