@@ -4,8 +4,6 @@ title: Publications
 permalink: /publications/
 ---
 
-# Research Publications
-
 # Research Publication Summary Statistics: 
 - Citations: 404
 - h-index: 11
