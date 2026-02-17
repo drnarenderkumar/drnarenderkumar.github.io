@@ -11,6 +11,7 @@ sass:
 header_pages:
   - index.md
   - about.md
+  - awards.md
   - publications.md
   - cv.md
   - contact.md
