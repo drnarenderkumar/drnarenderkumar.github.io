@@ -31,6 +31,6 @@ Research focus: [your focus area].
 
 ## Contact
 
-Email: your@email.com  
+Email: narender@alumni.harvard.edu 
 LinkedIn: [your profile link]  
-Google Scholar: [your link]
+Google Scholar: (https://scholar.google.com/citations?user=UC8BFsUAAAAJ&hl=en)
