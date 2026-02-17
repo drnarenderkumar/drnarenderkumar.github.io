@@ -9,12 +9,11 @@ Physician • Researcher • Harvard Alumnus • Marie Skłodowska-Curie Fellow
 
 ---
 
-
 ## About
 
 Dr. Narender Kumar is a dedicated physician and medical researcher with a strong academic foundation and global clinical experience spanning internal medicine, oncology, and molecular life sciences. He earned his MBBS from Sardar Patel Medical College, Bikaner (Rajasthan University of Health Sciences) and later completed a PhD in Molecular Life Sciences as a Marie Skłodowska-Curie Fellow at the Institute of Experimental Endocrinology and Oncology (CNR), Naples, Italy, in collaboration with the University of Campania “Luigi Vanvitelli.” He also holds a Postgraduate Fellowship in Clinical Trials from Harvard Medical School and is a Member of the Royal College of Physicians of the United Kingdom (MRCP, UK).
 
-
+---
 
 ## Research focus
 
@@ -25,12 +24,6 @@ Professionally, Dr. Kumar has served in diverse medical and research roles, incl
 Dr. Kumar is a recipient of numerous international awards and fellowships, including the Marie Skłodowska-Curie Fellowship (EU Horizon 2020), Harvard Medical School Scholarship, and multiple ESMO International Cancer Foundation (ICF) scholarships. He is an active member of global professional societies, including ESMO, ASCO, AACR, ASTRO, and the Marie Curie Alumni Association.
 
 Beyond his clinical and research pursuits, Dr. Kumar has demonstrated leadership and teaching excellence, having mentored healthcare professionals and contributed to institutional academic activities. His career exemplifies the integration of patient care, translational research, and international collaboration toward advancing evidence-based medicine.
-
----
-
-## CV
-
-[Download CV (PDF)](cv.pdf)
 
 ---
 
