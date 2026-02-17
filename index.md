@@ -3,8 +3,6 @@ layout: home
 title: Dr. Narender Kumar
 ---
 
-<title>Dr. Narender Kumar | [Your Specialty] | Research & Publications</title>
-
 <meta name="description" content="Official website of Dr. Narender Kumar. Research, publications, academic profile and professional work.">
 
 <meta name="keywords" content="Dr Narender Kumar, Researcher, Professor, Publications, [Your Field]">
