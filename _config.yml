@@ -1,6 +1,14 @@
 title: Dr. Narender Kumar
 email: your@email.com
 description: "Physician, Researcher, Harvard Alumnus"
-baseurl: ""    # leave blank for a user site
+baseurl: ""
 url: "https://drnarenderkumar.github.io"
-theme: minima   # minimal built‑in theme
+theme: minima
+
+# Navigation
+header_pages:
+  - index.md
+  - about.md
+  - publications.md
+  - cv.md
+  - contact.md
