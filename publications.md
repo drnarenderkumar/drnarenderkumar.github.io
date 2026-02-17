@@ -6,19 +6,18 @@ permalink: /publications/
 
 # Research Publications
 
-Research Publication Summary Statistics: 
-- •	Citations	:	404
-- •	h-index	:	  11
-- •	i10-index	:	  13
+# Research Publication Summary Statistics: 
+- Citations: 404
+- h-index: 11
+- i10-index: 13
 
-- •	Original Peer-reviewed publications	: 	24 
-- •	Abstracts in research conferences 	: 	24 
-- •	Clinical audits 			: 	02 
+- Original Peer-reviewed publications: 24 
+- Abstracts in research conferences: 24 
+- Clinical audits: 02 
 
-- Research experience
-- PhD thesis title: 	A cell-autonomous PD-1/PD-L1/2 circuit promotes proliferation and motility of thyroid cancer cells by  potentiating the Ras/Mapk signalling cascade. 
+# PhD thesis title: 	A cell-autonomous PD-1/PD-L1/2 circuit promotes proliferation and motility of thyroid cancer cells by  potentiating the Ras/Mapk signalling cascade. 
 
-- Publications (Peer-reviewed articles)	
+# Publications (Peer-reviewed articles)	
 1.	Kumar N, Kapoor A, Kalwar A, Narayan S, Singhal MK, Kumar A et al. Allele Frequency of ABO Blood Group Antigen and the Risk of Esophageal Cancer. Biomed Res Int 2014; 2014; 286810. 
 2.	Mishra T, Patel DA, Awadelkarim A, Sharma A, Patel N, Kumar N, et al. A National Perspective on the Impact of the COVID-19 Pandemic on Heart Failure Hospitalizations in the United States, Current Problems in Cardiology, 2023; 101749.
 3.	Liotti, F., Kumar, N., Prevete, N. et al. PD-1 blockade delays tumor growth by inhibiting an intrinsic SHP2/Ras/MAPK signalling in thyroid cancer cells. J Exp Clin Cancer Res 40, 22 (2021).
