@@ -1,14 +1,11 @@
 title: Dr. Narender Kumar
 email: narender@alumni.harvard.edu
-social_links:
-  - name: Email
-    url: "mailto:narender@alumni.harvard.edu"
-  - name: Twitter: X
-    url: "https://x.com/NKSantoriya"
-  - name: ORCID
-    url: "https://orcid.org/my-orcid?orcid=0000-0002-2427-647X"
-  - name: Google Scholar
-    url: "https://scholar.google.com/citations?user=UC8BFsUAAAAJ&hl=en"
+description: >
+  [Email](mailto:narender@alumni.harvard.edu)  
+  [Twitter: X](https://x.com/NKSantoriya)  
+  [ORCID](https://orcid.org/my-orcid?orcid=0000-0002-2427-647X)  
+  [Google Scholar](https://scholar.google.com/citations?user=UC8BFsUAAAAJ&hl=en)
+
 baseurl: ""
 url: "https://drnarenderkumar.github.io"
 theme: minima
