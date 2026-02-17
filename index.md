@@ -5,7 +5,7 @@ title: Dr. Narender Kumar
 
 <meta name="description" content="Official website of Dr. Narender Kumar. Research, publications, academic profile and professional work.">
 
-<meta name="keywords" content="Dr Narender Kumar, Researcher, Professor, Publications, [Your Field]">
+<meta name="keywords" content="Dr Narender Kumar, Oncology, Medical Oncology, Molecular Oncology, Cancer, Doctor, Internal Medicines, Medicine, Clinical, Clincal Research,  Researcher, Physician, Scientist, MBBS, MRCPUK, MRCP (UK), PhD, Harvard, Sardar Patel Medical College, Marie Curie ">
 
 <meta name="author" content="Dr Narender Kumar">
 
