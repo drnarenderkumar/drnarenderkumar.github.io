@@ -4,6 +4,8 @@ description: "Physician, Researcher, Harvard Alumnus"
 baseurl: ""
 url: "https://drnarenderkumar.github.io"
 theme: minima
+sass:
+  style: assets/css/style.scss
 
 # Navigation
 header_pages:
