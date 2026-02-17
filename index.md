@@ -5,8 +5,7 @@ title: Dr. Narender Kumar
 
 - **MBBS, MRCP (UK), PhD**  
 - Physician • Researcher • Harvard Alumnus • Marie Skłodowska-Curie Fellow
-- **Medical Oncology | Internal Medicine | Molecular Oncology | Clinical Research**
-- 
+- **Medical Oncology | Internal Medicine | Molecular Oncology | Clinical Research**  
 
 ---
 
