@@ -1,6 +1,6 @@
 ---
 layout: home
-title: Dr. Narender Kumar
+
 ---
 
 <meta name="description" content="Official website of Dr. Narender Kumar. Research, publications, academic profile and professional work.">
