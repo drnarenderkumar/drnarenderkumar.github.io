@@ -4,11 +4,8 @@ title: Dr. Narender Kumar
 ---
 
 <meta name="description" content="Official website of Dr. Narender Kumar. Research, publications, academic profile and professional work.">
-
 <meta name="keywords" content="Dr Narender Kumar, Oncology, Medical Oncology, Molecular Oncology, Cancer, Doctor, Internal Medicines, Medicine, Clinical, Clincal Research,  Researcher, Physician, Scientist, MBBS, MRCPUK, MRCP (UK), PhD, Harvard, Sardar Patel Medical College, Marie Curie ">
-
 <meta name="author" content="Dr Narender Kumar">
-
 <meta name="robots" content="index, follow">
 
 
@@ -28,9 +25,20 @@ Dr. Narender Kumar is a dedicated physician and medical researcher with a strong
 
 Dr. Kumar’s research focuses on molecular oncology, immuno-oncology, and personalized cancer therapy. His PhD work explored PD-1/PD-L1 signalling in thyroid cancer, contributing to the understanding of intrinsic immune checkpoint mechanisms in tumor progression. He has authored over 24 peer-reviewed publications and presented extensively at international forums such as ESMO, AACR, and IASGO, accumulating more than 400 citations with an h-index of 11.
 
+---
+
+## Professioanl experience
+
 Professionally, Dr. Kumar has served in diverse medical and research roles, including positions at AIIMS Rishikesh, Government Doon Medical College, and the National Research Council (CNR), Italy. Currently, he serves as a Medical Officer at Sahara Fracture & General Hospital, Bhopal, India. His previous leadership as In-Charge Medical Officer at the Community Health Centre, Pauri Garhwal, reflects his strong commitment to public health and clinical excellence in rural healthcare delivery.
 
+---
+
+## Fellowships and awards
 Dr. Kumar is a recipient of numerous international awards and fellowships, including the Marie Skłodowska-Curie Fellowship (EU Horizon 2020), Harvard Medical School Scholarship, and multiple ESMO International Cancer Foundation (ICF) scholarships. He is an active member of global professional societies, including ESMO, ASCO, AACR, ASTRO, and the Marie Curie Alumni Association.
+
+---
+
+## Leadership and management 
 
 Beyond his clinical and research pursuits, Dr. Kumar has demonstrated leadership and teaching excellence, having mentored healthcare professionals and contributed to institutional academic activities. His career exemplifies the integration of patient care, translational research, and international collaboration toward advancing evidence-based medicine.
 
@@ -40,5 +48,5 @@ Beyond his clinical and research pursuits, Dr. Kumar has demonstrated leadership
 
 [Email](narender@alumni.harvard.edu)    
 [Twitter: X](https://x.com/NKSantoriya)    
-[ORCID](https://orcid.org/my-orcid?orcid=0000-0002-2427-647X)  
+[ORCID](https://orcid.org/0000-0002-2427-647X)  
 [Google Scholar](https://scholar.google.com/citations?user=UC8BFsUAAAAJ&hl=en)    
