@@ -29,7 +29,7 @@ Dr. Kumar’s research focuses on molecular oncology, immuno-oncology, and perso
 
 ## Professioanl experience
 
-Professionally, Dr. Kumar has served in diverse medical and research roles, including positions at AIIMS Rishikesh, Government Doon Medical College, and the National Research Council (CNR), Italy. Currently, he serves as a Medical Officer at Sahara Fracture & General Hospital, Bhopal, India. His previous leadership as In-Charge Medical Officer at the Community Health Centre, Pauri Garhwal, reflects his strong commitment to public health and clinical excellence in rural healthcare delivery.
+Professionally, Dr. Kumar has served in diverse medical and research roles, including positions at Delhi State Cancer Institute, AIIMS Rishikesh, Government Doon Medical College, and the National Research Council (CNR), Italy. Currently, he serves in department of Medical Oncology at Homi Bhabha Cancer Hospital & Mahamana Pandit Madan Mohan Malviya Cancer Centre, Varanasi, India. His previous leadership as In-Charge Medical Officer at the Community Health Centre, Pauri Garhwal, reflects his strong commitment to public health and clinical excellence in rural healthcare delivery.
 
 ---
 
