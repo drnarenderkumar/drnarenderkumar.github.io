@@ -9,7 +9,8 @@ permalink: /education/
 09/2025 MRCP (UK)	 (Internal Medicine)  
 Member of Royal College of Physician of United Kingdom  
 Federation of the Royal Colleges of Physicians  
-United Kingdom   
+United Kingdom  
+
 2016 - 2019 		PhD 		Molecular Life Sciences (Marie-Curie Fellow)  
 Institute of Experimental Endocrinology and Oncology (IEOS) National Research Council (CNR), Naples, Italy  
 University of Campania “Luigi Vanvitelli”, Naples, Italy  
