@@ -10,6 +10,7 @@ sass:
 # Navigation
 header_pages:
   - about.md
+  - education.md 
   - awards.md
   - publications.md
   - conferences.md
