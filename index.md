@@ -27,8 +27,6 @@ title: Dr. Narender Kumar
 <hr style="margin: 40px 0;">
 
 
----
-
 ## About
 
 Dr. Narender Kumar is a dedicated physician and medical researcher with a strong academic foundation and global clinical experience spanning internal medicine, oncology, and molecular life sciences. He earned his MBBS from Sardar Patel Medical College, Bikaner (Rajasthan University of Health Sciences) and later completed a PhD in Molecular Life Sciences as a Marie Skłodowska-Curie Fellow at the Institute of Experimental Endocrinology and Oncology (CNR), Naples, Italy, in collaboration with the University of Campania “Luigi Vanvitelli.” He also holds a Postgraduate Fellowship in Clinical Trials from Harvard Medical School and is a Member of the Royal College of Physicians of the United Kingdom (MRCP, UK).
