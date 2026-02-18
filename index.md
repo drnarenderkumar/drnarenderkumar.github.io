@@ -8,6 +8,24 @@ title: Dr. Narender Kumar
 <meta name="author" content="Dr Narender Kumar">
 <meta name="robots" content="index, follow">
 
+<div style="display: flex; align-items: center; gap: 40px; flex-wrap: wrap; margin-top: 30px;">
+
+  <img src="/assets/images/nk_photo_portrait.jpg" alt="Dr. Narender Kumar" 
+       style="width: 220px; border-radius: 8px; box-shadow: 0 6px 18px rgba(0,0,0,0.15);">
+
+  <div>
+    <h1 style="margin-bottom: 5px;">Dr. Narender Kumar</h1>
+    <p style="font-size: 18px; margin-top: 0;">
+      <strong>MBBS, MRCP (UK), PhD</strong><br>
+      Physician • Researcher • Harvard Alumnus • Marie Skłodowska-Curie Fellow<br>
+      <strong>Medical Oncology | Internal Medicine | Molecular Oncology | Clinical Research</strong>
+    </p>
+  </div>
+
+</div>
+
+<hr style="margin: 40px 0;">
+
 
 **MBBS, MRCP (UK), PhD**  
 Physician • Researcher • Harvard Alumnus • Marie Skłodowska-Curie Fellow  
