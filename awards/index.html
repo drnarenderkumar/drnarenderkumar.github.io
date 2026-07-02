@@ -1,37 +1,533 @@
-<!DOCTYPE html>
-<html lang="en">
-
-<head>
-
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-
-<title>Awards, Grants & Scholarships | Dr. Narender Kumar</title>
-
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
 
 <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" rel="stylesheet">
 
-<style>
+<link
+rel="stylesheet"
+href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
 
-body{
-background:#f8fafc;
-font-family:'Segoe UI',sans-serif;
-}
+<link
+href="https://unpkg.com/aos@2.3.4/dist/aos.css"
+rel="stylesheet">
+
+<section class="hero">
+
+<div class="overlay"></div>
+
+<div class="container">
+
+<div class="row align-items-center">
+
+<div class="col-lg-8">
+
+<h1>
+
+Awards, Grants & Scholarships
+
+</h1>
+
+<p class="subtitle">
+
+Recognition • Fellowships • Research Funding
+
+</p>
+
+<p>
+
+Honoring excellence in research,
+clinical medicine,
+international collaborations,
+and academic leadership.
+
+</p>
+
+<a href="#featured"
+
+class="btn btn-warning btn-lg">
+
+<i class="fa-solid fa-trophy"></i>
+
+Explore Achievements
+
+</a>
+
+</div>
+
+
+<div class="col-lg-4 text-center">
+
+<i class="fa-solid fa-trophy hero-icon"></i>
+
+</div>
+
+</div>
+
+</div>
+
+</section>
+
+
 
 .hero{
 
-background:linear-gradient(135deg,#0d6efd,#0b3d91);
-padding:80px 0;
+background:
+
+linear-gradient(rgba(5,23,61,.85),
+
+rgba(5,23,61,.85)),
+
+url(images/banner.jpg);
+
+background-size:cover;
+
+background-position:center;
+
+padding:120px 0;
+
 color:white;
-text-align:center;
+
+position:relative;
+
+overflow:hidden;
 
 }
 
+.hero h1{
+
+font-size:56px;
+
+font-weight:700;
+
+}
+
+.subtitle{
+
+font-size:24px;
+
+margin-bottom:20px;
+
+color:#ffd43b;
+
+}
+
+.hero-icon{
+
+font-size:180px;
+
+color:#ffd43b;
+
+animation:float 4s infinite;
+
+}
+
+@keyframes float{
+
+50%{
+
+transform:translateY(-20px);
+
+}
+
+}
+
+
+<section class="stats">
+
+<div class="container">
+
+<div class="row g-4">
+
+<div class="col-lg-2 col-md-4">
+
+<div class="stat-card">
+
+<i class="fa-solid fa-trophy"></i>
+
+<h2 class="counter" data-target="6">0</h2>
+
+<p>Awards</p>
+
+</div>
+
+</div>
+
+
+
+<div class="col-lg-2 col-md-4">
+
+<div class="stat-card">
+
+<i class="fa-solid fa-graduation-cap"></i>
+
+<h2 class="counter" data-target="8">0</h2>
+
+<p>Scholarships</p>
+
+</div>
+
+</div>
+
+
+
+<div class="col-lg-2 col-md-4">
+
+<div class="stat-card">
+
+<i class="fa-solid fa-handshake"></i>
+
+<h2 class="counter" data-target="3">0</h2>
+
+<p>Major Fellowships</p>
+
+</div>
+
+</div>
+
+
+
+<div class="col-lg-2 col-md-4">
+
+<div class="stat-card">
+
+<i class="fa-solid fa-plane"></i>
+
+<h2 class="counter" data-target="7">0</h2>
+
+<p>Travel Grants</p>
+
+</div>
+
+</div>
+
+
+
+<div class="col-lg-2 col-md-4">
+
+<div class="stat-card">
+
+<i class="fa-solid fa-earth-europe"></i>
+
+<h2 class="counter" data-target="11">0</h2>
+
+<p>Countries</p>
+
+</div>
+
+</div>
+
+
+
+<div class="col-lg-2 col-md-4">
+
+<div class="stat-card">
+
+<i class="fa-solid fa-building-columns"></i>
+
+<h2 class="counter" data-target="10">0</h2>
+
+<p>Organizations</p>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</section>
+
+
+.stats{
+
+margin-top:-70px;
+
+position:relative;
+
+z-index:100;
+
+}
+
+.stat-card{
+
+background:white;
+
+padding:35px;
+
+border-radius:20px;
+
+text-align:center;
+
+box-shadow:0 15px 40px rgba(0,0,0,.08);
+
+transition:.4s;
+
+}
+
+.stat-card:hover{
+
+transform:translateY(-12px);
+
+}
+
+.stat-card i{
+
+font-size:45px;
+
+color:#0d6efd;
+
+margin-bottom:20px;
+
+}
+
+.counter{
+
+font-size:42px;
+
+font-weight:700;
+
+}
+
+.stat-card p{
+
+font-weight:600;
+
+color:#666;
+
+}
+
+
+<section id="featured" class="py-5">
+
+<div class="container">
+
+<h2 class="section-title">
+
+<i class="fa-solid fa-award"></i>
+
+Featured Awards
+
+</h2>
+
+<div class="swiper awardsSwiper">
+
+<div class="swiper-wrapper">
+
+<!-- Card 1 -->
+
+<div class="swiper-slide">
+
+<div class="award-card">
+
+<img
+
+src="images/logos/eu.png"
+
+class="award-logo">
+
+<h3>
+
+Marie Skłodowska-Curie Fellowship
+
+</h3>
+
+<p>
+
+European Commission
+
+</p>
+
+<span class="year">
+
+2016–2019
+
+</span>
+
+<div class="flag">
+
+🇪🇺 European Union
+
+</div>
+
+<a href="#"
+
+class="btn btn-primary">
+
+Details
+
+</a>
+
+</div>
+
+</div>
+
+
+
+<!-- Card 2 -->
+
+<div class="swiper-slide">
+
+<div class="award-card">
+
+<img
+
+src="images/logos/esmo.png"
+
+class="award-logo">
+
+<h3>
+
+ESMO Merit Award
+
+</h3>
+
+<p>
+
+MAP 2018
+
+</p>
+
+<span class="year">
+
+2018
+
+</span>
+
+<div class="flag">
+
+🇫🇷 France
+
+</div>
+
+<a href="#"
+
+class="btn btn-primary">
+
+Details
+
+</a>
+
+</div>
+
+</div>
+
+
+
+<!-- Card 3 -->
+
+<div class="swiper-slide">
+
+<div class="award-card">
+
+<img
+
+src="images/logos/harvard.png"
+
+class="award-logo">
+
+<h3>
+
+Harvard Scholarship
+
+</h3>
+
+<p>
+
+Harvard Medical School
+
+</p>
+
+<span class="year">
+
+2016
+
+</span>
+
+<div class="flag">
+
+🇺🇸 USA
+
+</div>
+
+<a href="#"
+
+class="btn btn-primary">
+
+Details
+
+</a>
+
+</div>
+
+</div>
+
+
+
+<!-- Card 4 -->
+
+<div class="swiper-slide">
+
+<div class="award-card">
+
+<img
+
+src="images/logos/iasgo.png"
+
+class="award-logo">
+
+<h3>
+
+Lorenzo Capussotti Award
+
+</h3>
+
+<p>
+
+IASGO World Congress
+
+</p>
+
+<span class="year">
+
+2014
+
+</span>
+
+<div class="flag">
+
+🇦🇹 Austria
+
+</div>
+
+<a href="#"
+
+class="btn btn-primary">
+
+Details
+
+</a>
+
+</div>
+
+</div>
+
+</div>
+
+<div class="swiper-pagination"></div>
+
+</div>
+
+</div>
+
+</section>
+
+
 .section-title{
 
-font-size:2rem;
+font-size:40px;
+
 font-weight:700;
+
 margin-bottom:40px;
 
 }
@@ -39,545 +535,1784 @@ margin-bottom:40px;
 .award-card{
 
 background:white;
-border:none;
-border-radius:15px;
-padding:25px;
-box-shadow:0 12px 30px rgba(0,0,0,.08);
-transition:.35s;
+
+padding:35px;
+
+border-radius:20px;
+
+text-align:center;
+
+box-shadow:0 15px 40px rgba(0,0,0,.08);
+
+transition:.4s;
+
+height:100%;
 
 }
 
 .award-card:hover{
 
-transform:translateY(-8px);
+transform:translateY(-10px);
 
 }
 
-.icon{
+.award-logo{
 
-font-size:45px;
-color:#0d6efd;
+height:80px;
+
 margin-bottom:20px;
+
+object-fit:contain;
 
 }
 
 .year{
 
-font-size:18px;
-font-weight:bold;
-color:#0d6efd;
+display:inline-block;
+
+background:#0d6efd;
+
+color:white;
+
+padding:6px 16px;
+
+border-radius:20px;
+
+margin:15px 0;
 
 }
 
-.card-title{
+.flag{
 
-font-weight:700;
+font-weight:600;
 
-}
-
-.section{
-
-padding:70px 0;
+margin-bottom:20px;
 
 }
 
-</style>
 
-</head>
+<script>
 
-<body>
+const counters=document.querySelectorAll(".counter");
 
-<section class="hero">
+counters.forEach(counter=>{
+
+counter.innerText='0';
+
+const update=()=>{
+
+const target=+counter.getAttribute("data-target");
+
+const c=+counter.innerText;
+
+const increment=target/100;
+
+if(c<target){
+
+counter.innerText=Math.ceil(c+increment);
+
+setTimeout(update,20);
+
+}
+
+else{
+
+counter.innerText=target;
+
+}
+
+}
+
+update();
+
+});
+
+</script>
+
+
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+<script>
+
+new Swiper(".awardsSwiper",{
+
+loop:true,
+
+spaceBetween:30,
+
+autoplay:{
+
+delay:3500
+
+},
+
+pagination:{
+
+el:".swiper-pagination",
+
+clickable:true
+
+},
+
+breakpoints:{
+
+768:{
+
+slidesPerView:2
+
+},
+
+1200:{
+
+slidesPerView:4
+
+}
+
+}
+
+});
+
+</script>
+
+
+<script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
+
+<script>
+
+AOS.init({
+
+duration:1000
+
+});
+
+</script>
+
+
+
+
+<!-- ==========================
+     ACHIEVEMENT DASHBOARD
+===========================-->
+
+<section class="dashboard py-5">
 
 <div class="container">
-
-<h1>Awards, Grants & Scholarships</h1>
-
-<p class="lead">
-
-Recognition for academic excellence, international fellowships,
-research grants, and scientific achievements.
-
-</p>
-
-</div>
-
-</section>
-
-
-<div class="container">
-
-<!-- Awards -->
-
-<section class="section">
-
-<h2 class="section-title text-center">
-
-<i class="fas fa-trophy text-warning"></i>
-
-Awards & Honors
-
-</h2>
 
 <div class="row g-4">
 
-<div class="col-lg-6">
-
-<div class="award-card">
-
-<div class="icon">
-
-<i class="fas fa-award"></i>
-
-</div>
-
-<div class="year">2018</div>
-
-<h4 class="card-title">
-
-ESMO Merit Award
-
-</h4>
-
-<p>
-
-Molecular Analysis for Personalized Therapy (MAP 2018),
-Paris, France.
-
-Awarded by the European Society for Medical Oncology (ESMO).
-
-</p>
-
-</div>
-
-</div>
-
-
+<!-- ===================================
+SCHOLARSHIPS
+=================================== -->
 
 <div class="col-lg-6">
 
-<div class="award-card">
+<div class="dashboard-card">
 
-<div class="icon">
+<div class="dashboard-header scholarship">
 
-<i class="fas fa-medal"></i>
+<h3>
 
-</div>
-
-<div class="year">2016</div>
-
-<h4>
-
-Marie Skłodowska-Curie Fellowship
-
-</h4>
-
-<p>
-
-Prestigious Horizon 2020 Fellowship funded by the
-European Commission for doctoral research in Molecular Oncology.
-
-</p>
-
-</div>
-
-</div>
-
-
-
-<div class="col-lg-6">
-
-<div class="award-card">
-
-<div class="icon">
-
-<i class="fas fa-plane"></i>
-
-</div>
-
-<div class="year">2016</div>
-
-<h4>
-
-ESMO Translational Research Fellowship
-
-</h4>
-
-<p>
-
-Research Fellowship at the Department of Experimental Medicine,
-Second University of Naples, Italy.
-
-</p>
-
-</div>
-
-</div>
-
-
-
-<div class="col-lg-6">
-
-<div class="award-card">
-
-<div class="icon">
-
-<i class="fas fa-star"></i>
-
-</div>
-
-<div class="year">2015</div>
-
-<h4>
-
-Republic Day Scientific Research Award
-
-</h4>
-
-<p>
-
-Government of Rajasthan
-
-Recognition for Outstanding Scientific Research.
-
-</p>
-
-</div>
-
-</div>
-
-
-
-<div class="col-lg-6">
-
-<div class="award-card">
-
-<div class="icon">
-
-<i class="fas fa-globe"></i>
-
-</div>
-
-<div class="year">2014</div>
-
-<h4>
-
-Lorenzo Capussotti Award
-
-</h4>
-
-<p>
-
-24th World Congress of IASGO
-
-Medical University of Vienna, Austria.
-
-</p>
-
-</div>
-
-</div>
-
-
-
-<div class="col-lg-6">
-
-<div class="award-card">
-
-<div class="icon">
-
-<i class="fas fa-users"></i>
-
-</div>
-
-<div class="year">2013</div>
-
-<h4>
-
-Best Performing College Award
-
-</h4>
-
-<p>
-
-Team Leader and Representative
-
-AIIMS Pulse,
-New Delhi.
-
-</p>
-
-</div>
-
-</div>
-
-</div>
-
-</section>
-
-
-
-<!-- Scholarships -->
-
-<section class="section bg-light">
-
-<div class="container">
-
-<h2 class="section-title text-center">
-
-<i class="fas fa-graduation-cap text-primary"></i>
+<i class="fas fa-graduation-cap"></i>
 
 Scholarships
 
-</h2>
+</h3>
 
-<div class="row g-4">
+</div>
 
-<div class="col-md-6">
+<div class="achievement-item">
 
-<div class="award-card">
+<img src="images/logos/icf.png" class="org-logo">
 
-<h4>Harvard Medical School Scholarship</h4>
+<div>
 
-<p>
+<h5>ICF Scholarship – ESMO Congress</h5>
 
-Global Clinical Scholars Research Training Program
+<p>Madrid, Spain 🇪🇸</p>
 
-Harvard Medical School
+<small>2023</small>
 
-2016
+</div>
 
-</p>
+<a href="conference.html" class="btn btn-sm btn-outline-primary">
+Conference
+</a>
+
+</div>
+
+<div class="achievement-item">
+
+<img src="images/logos/icf.png" class="org-logo">
+
+<div>
+
+<h5>ICF Scholarship – Breast Cancer</h5>
+
+<p>Berlin, Germany 🇩🇪</p>
+
+<small>2023</small>
+
+</div>
+
+<a href="conference.html" class="btn btn-sm btn-outline-primary">
+Conference
+</a>
+
+</div>
+
+<div class="achievement-item">
+
+<img src="images/logos/icf.png" class="org-logo">
+
+<div>
+
+<h5>ICF Scholarship – ESMO IO</h5>
+
+<p>Geneva, Switzerland 🇨🇭</p>
+
+<small>2022</small>
+
+</div>
+
+<a href="conference.html" class="btn btn-sm btn-outline-primary">
+Conference
+</a>
+
+</div>
+
+<div class="achievement-item">
+
+<img src="images/logos/harvard.png" class="org-logo">
+
+<div>
+
+<h5>Harvard Medical School Scholarship</h5>
+
+<p>Cambridge, USA 🇺🇸</p>
+
+<small>2016</small>
+
+</div>
+
+<a href="education.html" class="btn btn-sm btn-primary">
+Education
+</a>
 
 </div>
 
 </div>
 
-<div class="col-md-6">
+</div>
 
-<div class="award-card">
+<!-- ===================================
+GRANTS
+=================================== -->
 
-<h4>International Cancer Foundation Scholarship</h4>
+<div class="col-lg-6">
 
-<p>
+<div class="dashboard-card">
 
-ESMO Congress 2023
+<div class="dashboard-header fellowship">
 
-Madrid, Spain
+<h3>
 
-</p>
+<i class="fas fa-handshake"></i>
+
+Grants & Fellowships
+
+</h3>
+
+</div>
+
+<div class="achievement-item">
+
+<img src="images/logos/eu.png" class="org-logo">
+
+<div>
+
+<h5>Marie Skłodowska-Curie Fellowship</h5>
+
+<p>European Commission 🇪🇺</p>
+
+<small>2016–2019</small>
+
+</div>
+
+<a href="research.html" class="btn btn-sm btn-primary">
+
+Research
+
+</a>
+
+</div>
+
+<div class="achievement-item">
+
+<img src="images/logos/esmo.png" class="org-logo">
+
+<div>
+
+<h5>ESMO Translational Fellowship</h5>
+
+<p>Naples, Italy 🇮🇹</p>
+
+<small>2016</small>
+
+</div>
+
+<a href="research.html" class="btn btn-sm btn-outline-success">
+
+Research
+
+</a>
+
+</div>
+
+<div class="achievement-item">
+
+<img src="images/logos/eu.png" class="org-logo">
+
+<div>
+
+<h5>Horizon 2020 Programme</h5>
+
+<p>European Union 🇪🇺</p>
+
+<small>2016</small>
+
+</div>
+
+<a href="research.html" class="btn btn-sm btn-outline-success">
+
+Details
+
+</a>
 
 </div>
 
 </div>
 
-<div class="col-md-6">
+</div>
 
-<div class="award-card">
+<!-- ===================================
+TRAVEL GRANTS
+=================================== -->
 
-<h4>ICF Scholarship</h4>
+<div class="col-lg-6">
 
-<p>
+<div class="dashboard-card">
 
-ESMO Breast Cancer Congress
+<div class="dashboard-header travel">
 
-Berlin, Germany
+<h3>
 
-2023
+<i class="fas fa-plane"></i>
 
-</p>
+International Travel Grants
+
+</h3>
 
 </div>
 
-</div>
+<ul class="timeline-list">
 
-<div class="col-md-6">
+<li>
 
-<div class="award-card">
+🇪🇸 Barcelona
 
-<h4>ICF Scholarship</h4>
+<span>
 
-<p>
+ESMO Symposium on Signalling Pathways
 
-European Lung Cancer Congress
+(2017)
 
-2023
+</span>
 
-</p>
+</li>
 
-</div>
+<li>
 
-</div>
+🇵🇹 Lisbon
 
-<div class="col-md-6">
+<span>
 
-<div class="award-card">
+ESMO Breast Cancer Preceptorship
 
-<h4>ICF Scholarship</h4>
+(2016)
 
-<p>
+</span>
+
+</li>
+
+<li>
+
+🇸🇬 Singapore
+
+<span>
+
+ESMO Asia Congress
+
+(2015)
+
+</span>
+
+</li>
+
+<li>
+
+🇨🇭 Zurich
+
+<span>
 
 ESMO Immuno-Oncology
 
-Geneva
+(2015)
 
-2022
-
-</p>
-
-</div>
-
-</div>
-
-<div class="col-md-6">
-
-<div class="award-card">
-
-<h4>ICF Scholarship</h4>
-
-<p>
-
-MAP 2022
-
-Amsterdam
-
-</p>
-
-</div>
-
-</div>
-
-<div class="col-md-6">
-
-<div class="award-card">
-
-<h4>ICF Scholarship</h4>
-
-<p>
-
-ESMO Congress 2022
-
-Paris
-
-</p>
-
-</div>
-
-</div>
-
-<div class="col-md-6">
-
-<div class="award-card">
-
-<h4>ICF Scholarship</h4>
-
-<p>
-
-ESMO Gynaecological Cancer Congress
-
-Valencia
-
-2022
-
-</p>
-
-</div>
-
-</div>
-
-</div>
-
-</div>
-
-</section>
-
-
-
-<!-- Travel Grants -->
-
-<section class="section">
-
-<h2 class="section-title text-center">
-
-<i class="fas fa-plane-departure text-success"></i>
-
-Travel Grants
-
-</h2>
-
-<div class="row">
-
-<div class="col-md-6">
-
-<ul class="list-group">
-
-<li class="list-group-item">
-
-2017 • ESMO Symposium on Signalling Pathways in Cancer
-(Barcelona)
+</span>
 
 </li>
 
-<li class="list-group-item">
+<li>
 
-2016 • ESMO Breast Cancer Preceptorship
-(Lisbon)
+🇨🇭 Lausanne
 
-</li>
+<span>
 
-<li class="list-group-item">
+Immuno-Oncology Symposium
 
-2015 • ESMO Asia Congress
-(Singapore)
+(2015)
 
-</li>
-
-<li class="list-group-item">
-
-2015 • ESMO Immuno-Oncology Preceptorship
-(Zurich)
+</span>
 
 </li>
 
-<li class="list-group-item">
+<li>
 
-2015 • ESMO Immuno-Oncology Symposium
-(Lausanne)
+🇨🇭 Geneva
+
+<span>
+
+European Lung Cancer Conference
+
+(2015)
+
+</span>
 
 </li>
 
-<li class="list-group-item">
+<li>
 
-2015 • European Lung Cancer Conference
-(Geneva)
+🇦🇹 Vienna
 
-</li>
+<span>
 
-<li class="list-group-item">
+IASGO Congress
 
-2014 • IASGO World Congress
-(Vienna)
+(2014)
+
+</span>
 
 </li>
 
 </ul>
 
+<a class="btn btn-warning w-100 mt-3"
+
+href="conference.html">
+
+View Conferences
+
+</a>
+
+</div>
+
+</div>
+
+<!-- ===================================
+AWARDS
+=================================== -->
+
+<div class="col-lg-6">
+
+<div class="dashboard-card">
+
+<div class="dashboard-header awards">
+
+<h3>
+
+<i class="fas fa-award"></i>
+
+Awards & Honors
+
+</h3>
+
+</div>
+
+<div class="achievement-item">
+
+<img src="images/logos/esmo.png"
+
+class="org-logo">
+
+<div>
+
+<h5>ESMO Merit Award</h5>
+
+<p>MAP 2018 • Paris 🇫🇷</p>
+
+</div>
+
+<a href="publications.html"
+
+class="btn btn-outline-primary btn-sm">
+
+Publication
+
+</a>
+
+</div>
+
+<div class="achievement-item">
+
+<img src="images/logos/iasgo.png"
+
+class="org-logo">
+
+<div>
+
+<h5>Lorenzo Capussotti Award</h5>
+
+<p>Vienna 🇦🇹</p>
+
+</div>
+
+<a href="conference.html"
+
+class="btn btn-outline-primary btn-sm">
+
+Congress
+
+</a>
+
+</div>
+
+<div class="achievement-item">
+
+<img src="images/logos/india.png"
+
+class="org-logo">
+
+<div>
+
+<h5>Republic Day Scientific Award</h5>
+
+<p>Government of Rajasthan 🇮🇳</p>
+
+</div>
+
+</div>
+
+<div class="achievement-item">
+
+<img src="images/logos/aiims.png"
+
+class="org-logo">
+
+<div>
+
+<h5>Best Performing College</h5>
+
+<p>AIIMS Pulse 🇮🇳</p>
+
+</div>
+
+</div>
+
+</div>
+
 </div>
 
 </div>
 
 </section>
 
+
+.dashboard{
+
+background:#f8fafc;
+
+}
+
+.dashboard-card{
+
+background:#fff;
+
+border-radius:20px;
+
+box-shadow:0 10px 35px rgba(0,0,0,.08);
+
+padding:30px;
+
+height:100%;
+
+transition:.35s;
+
+}
+
+.dashboard-card:hover{
+
+transform:translateY(-8px);
+
+}
+
+.dashboard-header{
+
+margin-bottom:25px;
+
+padding-bottom:15px;
+
+border-bottom:2px solid #eee;
+
+}
+
+.dashboard-header h3{
+
+font-weight:700;
+
+font-size:28px;
+
+margin:0;
+
+}
+
+.dashboard-header i{
+
+margin-right:10px;
+
+}
+
+.scholarship{
+
+color:#16a34a;
+
+}
+
+.fellowship{
+
+color:#4f46e5;
+
+}
+
+.travel{
+
+color:#ea580c;
+
+}
+
+.awards{
+
+color:#0d6efd;
+
+}
+
+.achievement-item{
+
+display:flex;
+
+align-items:center;
+
+justify-content:space-between;
+
+gap:20px;
+
+padding:15px 0;
+
+border-bottom:1px solid #eee;
+
+}
+
+.achievement-item:last-child{
+
+border-bottom:none;
+
+}
+
+.org-logo{
+
+width:60px;
+
+height:60px;
+
+object-fit:contain;
+
+background:#fff;
+
+border-radius:12px;
+
+padding:6px;
+
+border:1px solid #eee;
+
+}
+
+.achievement-item h5{
+
+margin:0;
+
+font-size:18px;
+
+font-weight:600;
+
+}
+
+.achievement-item p{
+
+margin:4px 0;
+
+color:#666;
+
+}
+
+.timeline-list{
+
+list-style:none;
+
+padding-left:0;
+
+margin:0;
+
+}
+
+.timeline-list li{
+
+padding:15px;
+
+margin-bottom:15px;
+
+border-left:5px solid #0d6efd;
+
+background:#f5f7fb;
+
+border-radius:8px;
+
+font-weight:600;
+
+transition:.3s;
+
+}
+
+.timeline-list li:hover{
+
+transform:translateX(8px);
+
+background:#eef4ff;
+
+}
+
+.timeline-list span{
+
+display:block;
+
+font-size:14px;
+
+color:#666;
+
+margin-top:4px;
+
+}
+
+
+<section class="py-5 bg-light">
+
+<div class="container">
+
+<h2 class="section-title">
+
+<i class="fas fa-clock"></i>
+
+Achievement Timeline
+
+</h2>
+
+<div class="timeline">
+
+<div class="timeline-item left">
+
+<div class="timeline-content">
+
+<h4>2025</h4>
+
+<h5>MRCP (UK)</h5>
+
+<p>
+
+Federation of Royal Colleges of Physicians
+
+🇬🇧 United Kingdom
+
+</p>
+
+</div>
+
 </div>
 
 
 
-<footer class="bg-dark text-white text-center p-4">
+<div class="timeline-item right">
 
-© 2026 Dr. Narender Kumar
+<div class="timeline-content">
+
+<h4>2023</h4>
+
+<h5>ICF Scholarship</h5>
+
+<p>
+
+ESMO Congress
+
+Madrid 🇪🇸
+
+</p>
+
+</div>
+
+</div>
+
+
+
+<div class="timeline-item left">
+
+<div class="timeline-content">
+
+<h4>2022</h4>
+
+<h5>ESMO Scholarships</h5>
+
+<p>
+
+Paris 🇫🇷
+
+Amsterdam 🇳🇱
+
+Geneva 🇨🇭
+
+Singapore 🇸🇬
+
+Valencia 🇪🇸
+
+</p>
+
+</div>
+
+</div>
+
+
+
+<div class="timeline-item right">
+
+<div class="timeline-content">
+
+<h4>2018</h4>
+
+<h5>ESMO Merit Award</h5>
+
+<p>
+
+MAP 2018
+
+Paris 🇫🇷
+
+</p>
+
+</div>
+
+</div>
+
+
+
+<div class="timeline-item left">
+
+<div class="timeline-content">
+
+<h4>2016</h4>
+
+<h5>Marie Curie Fellowship</h5>
+
+<p>
+
+European Commission
+
+🇪🇺
+
+</p>
+
+</div>
+
+</div>
+
+
+
+<div class="timeline-item right">
+
+<div class="timeline-content">
+
+<h4>2014</h4>
+
+<h5>Lorenzo Capussotti Award</h5>
+
+<p>
+
+Vienna 🇦🇹
+
+</p>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</section>
+
+
+.timeline{
+
+position:relative;
+
+max-width:1100px;
+
+margin:auto;
+
+}
+
+.timeline::after{
+
+content:'';
+
+position:absolute;
+
+width:5px;
+
+background:#0d6efd;
+
+top:0;
+
+bottom:0;
+
+left:50%;
+
+}
+
+.timeline-item{
+
+padding:20px 40px;
+
+position:relative;
+
+width:50%;
+
+}
+
+.left{
+
+left:0;
+
+}
+
+.right{
+
+left:50%;
+
+}
+
+.timeline-content{
+
+background:white;
+
+padding:25px;
+
+border-radius:15px;
+
+box-shadow:0 10px 25px rgba(0,0,0,.08);
+
+}
+
+.timeline-item::after{
+
+content:'';
+
+position:absolute;
+
+width:22px;
+
+height:22px;
+
+background:#0d6efd;
+
+border-radius:50%;
+
+top:35px;
+
+right:-12px;
+
+}
+
+.right::after{
+
+left:-10px;
+
+}
+
+
+<section class="py-5">
+
+<div class="container">
+
+<h2 class="section-title">
+
+<i class="fas fa-earth-americas"></i>
+
+Global Academic Footprint
+
+</h2>
+
+<div id="worldMap"></div>
+
+</div>
+
+</section>
+
+
+#worldMap{
+
+height:650px;
+
+border-radius:20px;
+
+box-shadow:0 10px 30px rgba(0,0,0,.08);
+
+}
+
+
+<section class="py-5 bg-light">
+
+<div class="container">
+
+<h2 class="section-title">
+
+<i class="fas fa-book-open"></i>
+
+Related Publications
+
+</h2>
+
+<div class="row">
+
+<div class="col-lg-6">
+
+<div class="publication-card">
+
+<h4>
+
+DNA damage ATR/Chk1 checkpoint signalling increases PD-L1
+
+</h4>
+
+<p>
+
+Presented at MAP 2018
+
+Award-winning work
+
+</p>
+
+<a
+
+href="publications.html"
+
+class="btn btn-primary">
+
+Read Publication
+
+</a>
+
+</div>
+
+</div>
+
+
+
+<div class="col-lg-6">
+
+<div class="publication-card">
+
+<h4>
+
+PD-1 blockade delays tumor growth
+
+</h4>
+
+<p>
+
+Journal of Experimental & Clinical Cancer Research
+
+</p>
+
+<a
+
+href="publications.html"
+
+class="btn btn-primary">
+
+Read Publication
+
+</a>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</section>
+
+
+<section class="py-5">
+
+<div class="container">
+
+<h2 class="section-title">
+
+<i class="fas fa-chalkboard-user"></i>
+
+Related Conference Presentations
+
+</h2>
+
+<div class="row">
+
+<div class="col-lg-4">
+
+<div class="presentation-card">
+
+<h4>
+
+MAP 2018
+
+</h4>
+
+<p>
+
+Poster Presentation
+
+Paris 🇫🇷
+
+</p>
+
+<a
+
+href="conferences.html"
+
+class="btn btn-warning">
+
+View
+
+</a>
+
+</div>
+
+</div>
+
+
+
+<div class="col-lg-4">
+
+<div class="presentation-card">
+
+<h4>
+
+ESMO Congress
+
+</h4>
+
+<p>
+
+Madrid 🇪🇸
+
+</p>
+
+<a
+
+href="conferences.html"
+
+class="btn btn-warning">
+
+View
+
+</a>
+
+</div>
+
+</div>
+
+
+
+<div class="col-lg-4">
+
+<div class="presentation-card">
+
+<h4>
+
+ESMO IO
+
+</h4>
+
+<p>
+
+Geneva 🇨🇭
+
+</p>
+
+<a
+
+href="conferences.html"
+
+class="btn btn-warning">
+
+View
+
+</a>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</section>
+
+
+.publication-card,
+.presentation-card{
+
+background:white;
+
+padding:30px;
+
+border-radius:20px;
+
+box-shadow:0 12px 30px rgba(0,0,0,.08);
+
+margin-bottom:30px;
+
+transition:.35s;
+
+}
+
+.publication-card:hover,
+.presentation-card:hover{
+
+transform:translateY(-10px);
+
+}
+
+
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+
+<script>
+
+const map=L.map('worldMap').setView([30,10],2);
+
+L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',{
+
+maxZoom:18
+
+}).addTo(map);
+
+const places=[
+
+["Paris",48.8566,2.3522],
+
+["Berlin",52.52,13.40],
+
+["Madrid",40.41,-3.70],
+
+["Barcelona",41.38,2.17],
+
+["Naples",40.85,14.26],
+
+["Vienna",48.20,16.37],
+
+["Geneva",46.20,6.14],
+
+["Zurich",47.37,8.54],
+
+["Lausanne",46.51,6.63],
+
+["Amsterdam",52.36,4.90],
+
+["Cambridge",42.37,-71.10],
+
+["Singapore",1.35,103.82]
+
+];
+
+places.forEach(city=>{
+
+L.marker([city[1],city[2]])
+
+.addTo(map)
+
+.bindPopup(city[0]);
+
+});
+
+</script>
+
+
+
+
+<section class="py-5 bg-white">
+
+<div class="container">
+
+<h2 class="section-title text-center">
+
+Academic & Professional Organizations
+
+</h2>
+
+<div class="logo-grid">
+
+<img src="images/logos/esmo.png" alt="ESMO">
+
+<img src="images/logos/harvard.png" alt="Harvard">
+
+<img src="images/logos/eu.png" alt="European Commission">
+
+<img src="images/logos/asco.png" alt="ASCO">
+
+<img src="images/logos/aacr.png" alt="AACR">
+
+<img src="images/logos/astro.png" alt="ASTRO">
+
+<img src="images/logos/iasgo.png" alt="IASGO">
+
+<img src="images/logos/icf.png" alt="ICF">
+
+</div>
+
+</div>
+
+</section>
+
+
+.logo-grid{
+
+display:grid;
+
+grid-template-columns:repeat(auto-fit,minmax(160px,1fr));
+
+gap:50px;
+
+align-items:center;
+
+justify-items:center;
+
+margin-top:50px;
+
+}
+
+.logo-grid img{
+
+max-height:90px;
+
+opacity:.75;
+
+transition:.35s;
+
+filter:grayscale(100%);
+
+}
+
+.logo-grid img:hover{
+
+filter:none;
+
+opacity:1;
+
+transform:scale(1.08);
+
+}
+
+
+const goldIcon=L.divIcon({
+className:'custom-marker',
+html:'<i class="fas fa-trophy text-warning fa-2x"></i>'
+});
+
+const blueIcon=L.divIcon({
+className:'custom-marker',
+html:'<i class="fas fa-chalkboard-user text-primary fa-2x"></i>'
+});
+
+const greenIcon=L.divIcon({
+className:'custom-marker',
+html:'<i class="fas fa-graduation-cap text-success fa-2x"></i>'
+});
+
+L.marker([48.8566,2.35],{icon:goldIcon})
+.addTo(map)
+.bindPopup("<b>ESMO Merit Award</b><br>Paris, France");
+
+L.marker([42.37,-71.10],{icon:greenIcon})
+.addTo(map)
+.bindPopup("<b>Harvard Medical School</b>");
+
+L.marker([40.85,14.26],{icon:blueIcon})
+.addTo(map)
+.bindPopup("<b>Marie Curie Fellowship</b>");
+
+
+
+<section class="cta-section">
+
+<div class="container text-center">
+
+<h2>
+
+Interested in Collaboration?
+
+</h2>
+
+<p>
+
+For research collaborations, clinical projects,
+or invited lectures, please feel free to get in touch.
+
+</p>
+
+<a href="cv.pdf"
+
+class="btn btn-warning btn-lg">
+
+<i class="fas fa-download"></i>
+
+Download CV
+
+</a>
+
+<a href="contact.html"
+
+class="btn btn-primary btn-lg">
+
+<i class="fas fa-envelope"></i>
+
+Contact Me
+
+</a>
+
+</div>
+
+</section>
+
+
+.cta-section{
+
+background:linear-gradient(135deg,#0d6efd,#002855);
+
+padding:90px 20px;
+
+color:white;
+
+}
+
+.cta-section .btn{
+
+margin:10px;
+
+padding:15px 35px;
+
+border-radius:40px;
+
+}
+
+
+<button id="topBtn">
+
+<i class="fas fa-arrow-up"></i>
+
+</button>
+
+
+#topBtn{
+
+position:fixed;
+
+bottom:30px;
+
+right:30px;
+
+width:55px;
+
+height:55px;
+
+border:none;
+
+border-radius:50%;
+
+background:#0d6efd;
+
+color:white;
+
+display:none;
+
+z-index:999;
+
+box-shadow:0 8px 20px rgba(0,0,0,.3);
+
+}
+
+
+const topBtn=document.getElementById("topBtn");
+
+window.onscroll=function(){
+
+topBtn.style.display=window.scrollY>400?"block":"none";
+
+};
+
+topBtn.onclick=function(){
+
+window.scrollTo({
+
+top:0,
+
+behavior:"smooth"
+
+});
+
+};
+
+
+
+
+<button id="themeToggle"
+
+class="btn btn-dark">
+
+<i class="fas fa-moon"></i>
+
+</button>
+
+
+const toggle=document.getElementById("themeToggle");
+
+toggle.onclick=function(){
+
+document.body.classList.toggle("dark");
+
+};
+
+.dark{
+
+background:#0f172a;
+
+color:white;
+
+}
+
+.dark .dashboard-card,
+.dark .award-card,
+.dark .publication-card,
+.dark .presentation-card{
+
+background:#1e293b;
+
+color:white;
+
+}
+
+.dark .timeline-content{
+
+background:#1e293b;
+
+}
+
+
+<div id="loader">
+
+<div class="spinner-border text-warning"
+
+role="status">
+
+</div>
+
+</div>
+
+
+#loader{
+
+position:fixed;
+
+width:100%;
+
+height:100%;
+
+background:white;
+
+display:flex;
+
+justify-content:center;
+
+align-items:center;
+
+z-index:99999;
+
+}
+
+
+window.onload=function(){
+
+document.getElementById("loader").style.display="none";
+
+};
+
+<footer class="footer">
+
+<div class="container">
+
+<div class="row">
+
+<div class="col-lg-4">
+
+<h4>
+
+Dr. Narender Kumar
+
+</h4>
+
+<p>
+
+Physician • Medical Oncologist
+
+Researcher
+
+</p>
+
+</div>
+
+<div class="col-lg-4">
+
+<h5>
+
+Quick Links
+
+</h5>
+
+<ul>
+
+<li><a href="research.html">Research</a></li>
+
+<li><a href="publications.html">Publications</a></li>
+
+<li><a href="conference.html">Conferences</a></li>
+
+<li><a href="contact.html">Contact</a></li>
+
+</ul>
+
+</div>
+
+<div class="col-lg-4">
+
+<h5>
+
+Connect
+
+</h5>
+
+<a href="#"><i class="fab fa-google"></i></a>
+
+<a href="#"><i class="fab fa-linkedin"></i></a>
+
+<a href="#"><i class="fab fa-researchgate"></i></a>
+
+<a href="#"><i class="fas fa-envelope"></i></a>
+
+</div>
+
+</div>
+
+<hr>
+
+<p class="text-center">
+
+© 2026 Dr. Narender Kumar | All Rights Reserved
+
+</p>
+
+</div>
 
 </footer>
 
-</body>
 
-</html>
+.footer{
+
+background:#07162f;
+
+color:white;
+
+padding:70px 20px;
+
+}
+
+.footer a{
+
+color:#d9d9d9;
+
+text-decoration:none;
+
+}
+
+.footer ul{
+
+list-style:none;
+
+padding:0;
+
+}
+
+.footer li{
+
+margin:8px 0;
+
+}
+
+.footer i{
+
+font-size:24px;
+
+margin-right:18px;
+
+transition:.3s;
+
+}
+
+.footer i:hover{
+
+color:#ffc107;
+
+transform:translateY(-3px);
+
+}
+
+
+
+
